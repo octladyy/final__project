@@ -1,0 +1,160 @@
+@import "vars";
+
+.pricing {
+  margin: 185px 127px 0 127px;
+  padding: 0 15px 0 5px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $secondary;
+    margin: auto;
+    text-align: center;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: 425px 425px 425px;
+    margin-top: 57px;
+    grid-template-rows: 586px;
+    gap: 39px;
+  }
+
+  &__evelope1 {
+    max-width: 425px;
+  }
+
+  &__picture1 {
+    margin: -2px 89px 0 23px;
+  }
+
+  &__evelope1-t1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: $secondary;
+    margin: 34px 53px 19px -1px;
+  }
+
+  &__evelope1-t2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $accent;
+    margin: 0 0 29px -2px;
+  }
+
+  &__price1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $secondary;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 24px 0 18px;
+    background: $bg;
+    border-radius: 5px;
+    max-width: 240px;
+    margin-top: -3px;
+  }
+
+  &__strong {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: $secondary;
+    margin: 2px 13px 0 5px;
+  }
+
+  &__evelope2 {
+    margin-left: 10px;
+  }
+
+  &__picture2 {
+    padding: 24px 6px 0 0;
+  }
+
+  &__evelope2-t1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: $secondary;
+    margin: 36px 100px 23px 1px;
+  }
+
+  &__evelope2-t2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $accent;
+    margin: -1px 20px 57px 1px;
+  }
+
+  &__price2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $secondary;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    max-width: 240px;
+    padding: 0 26px 0 12px;
+    background: $bg;
+    border-radius: 5px;
+    margin: 25px 7px 0 4px;
+  }
+
+  &__strong2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: $secondary;
+    padding: 1px 5px 2px 8px;
+  }
+
+  &__picture3 {
+    margin: -2px 35px 0 23px;
+  }
+
+  &__evelope3-t1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: $secondary;
+    margin: 4px 100px 0 -26px;
+  }
+
+  &__evelope3-t2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $accent;
+    margin: 21px -6px 59px -26px;
+  }
+
+  &__strong3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: $secondary;
+    margin-right: 8px;
+  }
+
+  &__price3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $secondary;
+    text-decoration: none;
+    padding: 0 22px 1px 8px;
+    background: $bg;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    max-width: 240px;
+    margin: -2px 35px 0 -18px;
+  }
+}

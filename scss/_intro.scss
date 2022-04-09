@@ -1,0 +1,70 @@
+@import "vars";
+
+.intro {
+  padding: 50px 129px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 57px;
+  }
+
+  &__left-1 {
+    margin-bottom: -38px;
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 80px;
+      color: $dark;
+    }
+
+    img {
+      margin: 144px 6px 0 0;
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__left {
+    max-width: 550px;
+  }
+
+  &__text {
+    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $accent;
+  }
+
+  &__link {
+    max-width: 438px;
+    padding: 32px 117px 32px 118px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: $light;
+    text-decoration: none;
+    transition: all 0.3s;
+    text-align: center;
+
+    background: $secondary;
+    border-radius: 15px;
+  }
+
+  &__right {
+    max-width: 661px;
+
+    &-img {
+      padding-top: -10px;
+      padding-left: 16px;
+      width: 661px;
+      height: 661px;
+      left: 816px;
+      top: 176px;
+    }
+  }
+}

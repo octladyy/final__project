@@ -1,0 +1,62 @@
+// @import "vars";
+@import "vars";
+
+.contacts {
+  margin: 256px 127px 0 127px;
+
+  &__form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__inner {
+    margin-left: -13px;
+    display: grid;
+    grid-template-columns: 477px 751px;
+    gap: 111px;
+    grid-template-rows: 429px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $dark;
+    margin: 33px 0 35px -3px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $accent;
+    margin-left: -2px;
+    padding: 0;
+    margin-bottom: 52px;
+  }
+
+  &__input {
+    font-family: $main-font;
+    font-style: normal;
+    padding: 25px 213px 29px 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid $accent;
+    border-radius: 10px;
+  }
+
+  &__sub {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 80px 22px 81px;
+    color: $light;
+
+    background: $secondary;
+    border-radius: 10px;
+  }
+}

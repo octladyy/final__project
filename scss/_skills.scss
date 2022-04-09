@@ -1,0 +1,189 @@
+@import "vars";
+
+.skills {
+  padding: 60px 128px 0 129px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $accent;
+
+  &__btn {
+    width: 218px;
+    height: 60px;
+    left: 621px;
+    top: 1543px;
+    text-decoration: none;
+
+    background: #263238;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: $light;
+
+    padding: 17px 63px;
+  }
+
+  &__under-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $dark;
+  }
+
+  &__wrapper {
+    padding-top: 53px;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 108px;
+    grid-template-columns: repeat(3, 345px);
+    grid-template-areas:
+      "speak write read"
+      "speak listen listen";
+  }
+
+  &__speak {
+    grid-area: speak;
+    padding: 35px 22px 108px 0;
+    width: 435px;
+    background-color: $bg;
+    border-radius: 10px;
+
+    &-title {
+      margin: 0;
+    }
+
+    &-top {
+      text-align: center;
+      padding: 0 22px 0 23px;
+    }
+
+    &-bottom {
+      margin-left: 28px;
+      padding: 0 14px 0 15px;
+    }
+
+    &-text1 {
+      margin: 0;
+      padding-top: 5px;
+    }
+
+    &-text2 {
+      max-width: 320px;
+      padding: 8px 0 35px 0;
+    }
+  }
+
+  &__write {
+    grid-area: write;
+    width: 435px;
+    background-color: $bg;
+    border-radius: 10px;
+    padding-bottom: 60px;
+
+    &-top {
+      padding: 0 19px 0 122px;
+    }
+
+    &-bottom {
+      max-width: 632px;
+    }
+
+    &-title {
+      margin: -45px 280px 0 42px;
+    }
+
+    &-leed {
+      max-width: 632px;
+      padding-right: 30px;
+      margin: -9px 0 46px 40px;
+    }
+
+    &-link {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 41px;
+      padding-right: 50px;
+      max-width: 218px;
+      padding: 15px 51px;
+    }
+  }
+
+  &__read {
+    padding-bottom: 55px;
+    grid-area: read;
+    width: 435px;
+    background-color: $bg;
+    border-radius: 10px;
+
+    &-top {
+      margin: 8px 63px 0 1px;
+    }
+
+    &-title {
+      margin: -6px 270px 0 40px;
+    }
+
+    &-leed {
+      max-width: 360px;
+      margin: -13px 0 48px 40px;
+    }
+
+    &-link {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 41px;
+      padding-right: 50px;
+      max-width: 218px;
+      padding: 15px 51px;
+    }
+  }
+
+  &__listen {
+    width: 885px;
+    grid-area: listen;
+    background: $bg;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+
+    &-left {
+      max-width: 380px;
+      margin: 48px 0 0 5px;
+    }
+
+    &-title {
+      margin: -5px 280px 0 42px;
+    }
+
+    &-leed {
+      margin: -5px 0 40px 40px;
+    }
+
+    &-link {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 41px;
+      padding-right: 50px;
+      max-width: 218px;
+      margin-left: 36px;
+      padding: 17px 52px;
+    }
+
+    &-right {
+      padding: 42px 26px 44px 1px;
+    }
+  }
+}

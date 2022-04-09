@@ -1,0 +1,28 @@
+@import "vars";
+
+.header {
+  padding: 55px 127px 0 127px;
+
+  &__logo {
+    margin-top: -4px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: $dark;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 6px 0 4px;
+  }
+
+  &__nav {
+    padding-left: 55px;
+  }
+  &__nav-toggle {
+    display: none;
+  }
+}
